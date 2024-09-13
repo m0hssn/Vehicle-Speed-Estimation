@@ -16,7 +16,7 @@ A CNN regressor is trained to predict vehicle velocity from the optical flow ima
 
 ## Results 
 
-The model achieves a training loss of 1.36, but struggles to replicate this performance on the test dataset. Upon analysis, it was found that the training and test datasets had minimal overlap in terms of velocity ranges. The training data also had limited coverage of different speed ranges, which affected the model's ability to generalize effectively.
+The model achieves a training loss (MSE) of 1.36, but struggles to replicate this performance on the test dataset. Upon analysis, it was found that the training and test datasets had minimal overlap in terms of velocity ranges. The training data also had limited coverage of different speed ranges, which affected the model's ability to generalize effectively.
 
 
 ## Future Work
